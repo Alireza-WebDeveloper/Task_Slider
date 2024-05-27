@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Js -->
+    <script src="/main.js" type="module"></script>
+    <!-- Css -->
+    <link rel="stylesheet" href="/root.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box gap-2 p-3 rounded-lg">
+        <section
+          class="introduction flex flex-column items-center justify-center gap-4"
+        >
+          <h1 class="text-lg font-bold flex flex-column text-center gap-4">
+            enjoy a %10<br />
+            discount on your<br />
+            first purchase!😍
+          </h1>
+          <p class="text-danger text-neutral-500 text-center">
+            use the coupon code & start<br />
+            shopping white this offer still<br />
+            latest
+          </p>
+          <button
+            class="px-5 py-2 text-lg border-dashed border-neutral bg-none text-neutral-600 rounded-lg w-70"
+          >
+            [coupon code]
+          </button>
+        </section>
+        <section class="content flex flex-column justify-center items-center">
+          <div class="carousel position-relative">
+            <div class="carousel_Item bg-neutral-200 rounded-lg"></div>
+            <div class="carousel_Item bg-neutral-200 rounded-lg"></div>
+            <div class="carousel_Item bg-neutral-200 rounded-lg text-end"></div>
+            <div class="arrow">
+              <button
+                class="arrow-left bg-secondary-400 rounded-lg rounded-full"
+              >
+                <i class="fa-solid fa-arrow-left text-neutral-100 w-4 h-4"></i>
+              </button>
+              <button
+                class="arrow-right bg-secondary-400 rounded-lg rounded-full"
+              >
+                <i class="fa-solid fa-arrow-right text-neutral-100 w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Mobile -->
+      <div class="mobile rounded-md flex flex-column space-y-4">
+        <section class="slider rounded-md position-relative">
+          <div class="slider_Item bg-neutral-200 rounded-md z-index-1"></div>
+          <div class="slider_Item bg-neutral-200 rounded-md z-index-3"></div>
+          <div class="slider_Item bg-neutral-200 rounded-md z-index-2"></div>
+          <div class="slider_Arrow">
+            <button
+              class="slider-arrow-left bg-secondary-400 rounded-lg rounded-full"
+            >
+              <i class="fa-solid fa-arrow-left text-neutral-100 w-4 h-4"></i>
+            </button>
+            <button
+              class="slider-arrow-right bg-secondary-400 rounded-lg rounded-full"
+            >
+              <i class="fa-solid fa-arrow-right text-neutral-100 w-4 h-4"></i>
+            </button>
+          </div>
+        </section>
+        <div class="flex flex-column space-y-4 text-center">
+          <h1 class="text-xl">level up your style!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
